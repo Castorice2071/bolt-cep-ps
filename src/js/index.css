@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Flaticon;
+    src: url(./assets/media/Flaticon.dfc54467.eot);
+    src:
+        url(./assets/media/Flaticon.dfc54467.eot?#iefix)
+            format("embedded-opentype"),
+        url(./assets/media/Flaticon.b4e3632f.svg#Flaticon) format("svg"),
+        url(./assets/media/Flaticon.5e7e0b72.woff2) format("woff2"),
+        url(./assets/media/Flaticon.cfdfd251.woff) format("woff"),
+        url(./assets/media/Flaticon.4a459f9e.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: Flaticon;
+        src: url(./assets/media/Flaticon.b4e3632f.svg#Flaticon) format("svg");
+    }
+}
+
+[class*=" flaticon-"]:after,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class^="flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.flaticon-fx:before {
+    content: "\F100";
+}
+
+.flaticon-box3:before {
+    content: "\F101";
+}
+
+.flaticon-home:before {
+    content: "\F102";
+}
+
+.flaticon-dropshadow:before {
+    content: "\F103";
+}
+
+.flaticon-sun:before {
+    content: "\F104";
+}
+
+.flaticon-drop:before {
+    content: "\F105";
+}
+
+.flaticon-clip:before {
+    content: "\F106";
+}
+
+.flaticon-document:before {
+    content: "\F107";
+}
+
+.flaticon-texture8:before {
+    content: "\F108";
+}
+
+.flaticon-palette:before {
+    content: "\F109";
+}
+
+.flaticon-pattern:before {
+    content: "\F10A";
+}
+
+.flaticon-search:before {
+    content: "\F10B";
+}
+
+.flaticon-texture:before {
+    content: "\F10C";
+}
+
+.flaticon-stars:before {
+    content: "\F10D";
+}
+
+.flaticon-distort:before {
+    content: "\F10E";
+}
+
+.flaticon-pattern2:before {
+    content: "\F10F";
+}
+
+.flaticon-pattern3:before {
+    content: "\F110";
+}
+
+.flaticon-box2:before {
+    content: "\F111";
+}
+
+.flaticon-box1:before {
+    content: "\F112";
+}
+
+.flaticon-roll:before {
+    content: "\F113";
+}
+
+.flaticon-pattern4:before {
+    content: "\F114";
+}
+
+.flaticon-flip3v:before {
+    content: "\F115";
+}
+
+.flaticon-flip3h:before {
+    content: "\F116";
+}
+
+.flaticon-flip2:before {
+    content: "\F117";
+}
+
+.flaticon-flip1:before {
+    content: "\F118";
+}
